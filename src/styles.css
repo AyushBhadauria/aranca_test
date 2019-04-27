@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+.bold {
+    font-weight: 600;
+    font-size: 15px;
+}
+.w-50 {
+    width: 40%;
+    float: left;
+}

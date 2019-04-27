@@ -1,0 +1,15 @@
+<div class="wrapp">
+  <h4>Running Median</h4>
+  <input type="file" (change) = "renderFile(file.files)" #file>
+  <div class="my-2 " *ngIf = "count">
+    <p>Array Count : {{count}}</p>
+    <div class="inp my-2 w-50">
+      <p class="bold ml-2">Input Numbers</p>
+      <p class="ml-2" *ngFor ="let num of fileArray">{{num}}</p>
+    </div>
+    <div class="out my-2 w-50">
+      <p class="bold ml-2">Output Numbers</p>
+      <p class="ml-2" *ngFor ="let num of medianArray">{{num}}</p>
+    </div>
+  </div>
+</div>

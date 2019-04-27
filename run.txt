@@ -1,0 +1,13 @@
+Steps to run the project
+
+1) Install npm dependencies by
+   npm i
+2) Hit ng serve to run the angular project locally. 
+3) Open localhost:4200 and see the results
+
+
+Components-
+
+1)Median
+
+2)Page Validator

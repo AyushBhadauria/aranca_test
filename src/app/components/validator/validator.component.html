@@ -1,0 +1,12 @@
+<div class="wrapp">
+  <h4>Page Validator</h4>
+  <form [formGroup] = "form" class="form-group" class="w-100">
+    <div class="w-70">
+        <input type = "text" formControlName = "pageRange" class="form-control">
+    </div>
+    <div class="w-30">
+        <div *ngIf ="pageRange.value && !pageRange.errors.pattern" class="success"><span class="mx-4">Valid</span>  </div> 
+        <div *ngIf ="pageRange.errors.pattern" class="danger"><span class="mx-4">Invalid</span> </div> 
+    </div>
+  </form>
+  </div>
